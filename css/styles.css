@@ -1,0 +1,173 @@
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/raleway-v19-latin_cyrillic-ext_cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+ :root{
+    --primary-title-color-- :#212121;
+    --accent-color-- :#2196F3;
+    --text--color-- : #757575;
+    --background-- :#2F303A;
+    --primary-background-color-- :#E5E5E5;
+    --header-color-- :#FFFFFF;
+    --button-current-color-- :#F5F4FA;
+}
+
+body {
+    font-family: Roboto , sans-serif;
+    background-color: var(--primary-background-color--);
+    color: var(--primary-title-color--);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+.link{
+      text-decoration: none;
+      color: inherit;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color--);
+}
+.current{
+    color:var(--accent-color--)
+}
+.logo-header{
+    font-family: Raleway, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    line-height:1.2;
+}
+.web{
+    color: var(--accent-color--)
+}
+.head {
+    background-color: var(--header-color--);
+    letter-spacing: 0.02em;
+}
+.list{
+    text-decoration: none;
+    list-style: none;
+}
+.header-nav{
+    font-weight: 500;
+}
+.contacts{
+  color:inherit
+}
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--header-color--);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.hero{
+    background-color: var(--background--);
+    text-align: center;
+}
+.main-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9; 
+    color: var(--header-color--);
+    background-color: var(--accent-color--);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus{
+     background-color: var(--button-current-color--);
+     color: var(--primary-title-color--);
+}
+ .visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.paragraph-title{
+    font-weight: bold;
+    line-height: 1.14;
+}
+.text{
+  line-height: 1.7;
+  color: var(--text--color--);
+}
+.second-title{
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+.people{
+    text-align: center;
+   background-color: var(--button-current-color--);
+}
+.name{
+  font-weight: 500;
+  font-size: 16px;
+}
+.profession{
+ font-size: 16px;
+ color: var(--text--color--);
+}
+.foot{
+ background-color: #2F303A;
+}
+.logo-foot{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+.adress{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+.location{
+    color: var(--header-color--);
+    
+}
+.filters{
+    text-align: center;
+}
+.portfolio-button{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--button-current-color--);
+    text-align: center;
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--accent-color--);
+    color: var(--header-color--);
+}
+.poster-name{
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.prof{
+ font-size: 16px;
+ line-height: 1.9;
+ color: var(--text--color--);
+}
